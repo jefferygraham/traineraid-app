@@ -20,7 +20,7 @@ const SplashScreen = ({ navigation }) => {
       <StatusBar translucent backgroundColor='rgba(0,0,0,0)' />
       <ImageBackground
         style={{ flex: 1 }}
-        source={require('../assets/images/bg.jpg')}
+        source={require('../assets/images/bg.png')}
         resizeMode='cover'
       >
         <LinearGradient
