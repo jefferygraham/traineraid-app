@@ -86,7 +86,7 @@ const LoginScreen = ({ navigation }) => {
   function phoneNumberTextField() {
     return (
       <IntlPhoneInput
-        defaultCountry='IN'
+        defaultCountry='US'
         onChangeText={({ phoneNumber }) =>
           updateState({ phoneNumber: phoneNumber })
         }

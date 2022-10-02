@@ -20,96 +20,12 @@ import { getDrawerStatusFromState } from '@react-navigation/drawer';
 const markers = [
   {
     coordinate: {
-      latitude: 22.6293867,
-      longitude: 88.4354486,
+      latitude: 38.9045,
+      longitude: -77.0422,
     },
     image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
-    rating: '4.5',
-    distance: '3.5',
-    cost: 50,
-  },
-  {
-    coordinate: {
-      latitude: 22.6345648,
-      longitude: 88.4377279,
-    },
-    image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
-    rating: '4.5',
-    distance: '3.5',
-    cost: 50,
-  },
-  {
-    coordinate: {
-      latitude: 22.6281662,
-      longitude: 88.4410113,
-    },
-    image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
-    rating: '4.5',
-    distance: '3.5',
-    cost: 50,
-  },
-  {
-    coordinate: {
-      latitude: 22.6341137,
-      longitude: 88.4497463,
-    },
-    image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
-    rating: '4.5',
-    distance: '3.5',
-    cost: 50,
-  },
-  {
-    coordinate: {
-      latitude: 22.6292757,
-      longitude: 88.444781,
-    },
-    image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
-    rating: '4.5',
-    distance: '3.5',
-    cost: 50,
-  },
-  {
-    coordinate: {
-      latitude: 22.63049,
-      longitude: 88.4377956,
-    },
-    image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
-    rating: '4.5',
-    distance: '3.5',
-    cost: 50,
-  },
-  {
-    coordinate: {
-      latitude: 22.6287471,
-      longitude: 88.4392547,
-    },
-    image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
-    rating: '4.5',
-    distance: '3.5',
-    cost: 50,
-  },
-  {
-    coordinate: {
-      latitude: 22.6224884,
-      longitude: 88.4332895,
-    },
-    image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Perfect Wash Service',
-    address: '108, Yogi Point, New York.',
+    place: 'Trainer 1',
+    address: '1150 18th St NW Washington, DC 20036',
     rating: '4.5',
     distance: '3.5',
     cost: 50,
@@ -153,8 +69,8 @@ const HomeScreen = ({ navigation }) => {
 
   const [markerList] = useState(markers);
   const [region] = useState({
-    latitude: 22.62938671242907,
-    longitude: 88.4354486029795,
+    latitude: 38.8851122,
+    longitude: -76.9158068,
     latitudeDelta: 0.04864195044303443,
     longitudeDelta: 0.040142817690068,
   });
