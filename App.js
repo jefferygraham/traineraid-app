@@ -7,10 +7,7 @@ import {
 } from '@react-navigation/stack';
 import { LogBox } from 'react-native';
 import LoadingScreen from './components/loadingScreen';
-import loginScreen from './screens/auth/loginScreen';
 import SplashScreen from './screens/splashScreen';
-import verificationScreen from './screens/auth/verificationScreen';
-import registerScreen from './screens/auth/registerScreen';
 import homeScreen from './screens/home/homeScreen';
 import serviceProviderScreen from './screens/serviceProvider/serviceProviderScreen';
 import selectDateAndTimeScreen from './screens/selectDatAndTime/selectDateAndTimeScreen';
@@ -71,13 +68,6 @@ const App = () => {
           component={SplashScreen}
           options={{ ...TransitionPresets.DefaultTransition }}
         />
-        <Stack.Screen
-          name='Login'
-          component={loginScreen}
-          options={{ ...TransitionPresets.DefaultTransition }}
-        />
-        <Stack.Screen name='Verification' component={verificationScreen} />
-        <Stack.Screen name='Register' component={registerScreen} />
         <Stack.Screen
           name='MainDrawer'
           component={DrawerNavigation}

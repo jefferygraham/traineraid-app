@@ -12,7 +12,7 @@ import { CircleFade } from 'react-native-animated-spinkit';
 
 const SplashScreen = ({ navigation }) => {
   setTimeout(() => {
-    navigation.navigate('Login');
+    navigation.navigate('MainDrawer');
   }, 2000);
 
   return (

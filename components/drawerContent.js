@@ -11,6 +11,7 @@ import {
 import { Colors, Fonts, Sizes } from '../constants/styles';
 import Dialog from 'react-native-dialog';
 import { MaterialIcons } from '@expo/vector-icons';
+import { Auth } from 'aws-amplify';
 
 const { width } = Dimensions.get('window');
 
@@ -156,6 +157,14 @@ const CustomDrawer = (props) => {
     );
   }
 
+  async function signOut() {
+    try {
+      await Auth.signOut({ global: true });
+    } catch (error) {
+      console.log('error signing out: ', error);
+    }
+  }
+
   function logOutDialog() {
     return (
       <Dialog.Container
@@ -187,7 +196,7 @@ const CustomDrawer = (props) => {
               activeOpacity={0.9}
               onPress={() => {
                 updateState({ showLogoutDialog: false });
-                props.navigation.push('Login');
+                signOut();
               }}
               style={styles.logOutButtonStyle}
             >
