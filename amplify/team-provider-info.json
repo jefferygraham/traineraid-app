@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-traineraid-staging-183713-authRole",
+      "UnauthRoleArn": "arn:aws:iam::394845364062:role/amplify-traineraid-staging-183713-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::394845364062:role/amplify-traineraid-staging-183713-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-traineraid-staging-183713-deployment",
+      "UnauthRoleName": "amplify-traineraid-staging-183713-unauthRole",
+      "StackName": "amplify-traineraid-staging-183713",
+      "StackId": "arn:aws:cloudformation:us-east-1:394845364062:stack/amplify-traineraid-staging-183713/3bfe0130-4281-11ed-8ed3-0e2e4c996b45",
+      "AmplifyAppId": "d2il25rz3kjdcg"
+    },
+    "categories": {
+      "auth": {
+        "TrainerAid": {}
+      }
+    }
+  }
+}

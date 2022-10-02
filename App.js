@@ -30,6 +30,11 @@ import myAddressesScreen from './screens/myAddresses/myAddressesScreen';
 import addNewAddressScreen from './screens/addNewAddress/addNewAddressScreen';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import CustomDrawer from './components/drawerContent';
+import { Amplify } from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react-native';
+import awsconfig from './src/aws-exports';
+
+Amplify.configure(awsconfig);
 
 LogBox.ignoreAllLogs();
 
@@ -108,4 +113,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default withAuthenticator(App);
