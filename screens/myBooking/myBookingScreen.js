@@ -20,7 +20,6 @@ const bookingList = [
     name: 'Trainer 1',
     address: '105, Apple Square, New york',
     dateAndTime: '10:00 AM, 20 Feb 2021',
-    services: 'Interier Cleaning, Engine Detailing',
     isDone: false,
   },
   {
@@ -29,7 +28,6 @@ const bookingList = [
     name: 'Trainer 2',
     address: '115, Opera Hub, New york',
     dateAndTime: '04:00 PM, 30 March 2021',
-    services: 'Body Wash',
     isDone: true,
   },
   {
@@ -38,7 +36,6 @@ const bookingList = [
     name: 'Trainer 3',
     address: 'G-8, My Honest Hub, New york',
     dateAndTime: '02:00 PM,  02 April 2021',
-    services: 'Body Wash, Interier Cleaning',
     isDone: false,
   },
 ];
@@ -90,19 +87,6 @@ const MyBookingScreen = ({ navigation }) => {
               {item.dateAndTime}
             </Text>
           </View>
-          <View style={{ flexDirection: 'row' }}>
-            <Text
-              style={{
-                ...Fonts.blackColor14Bold,
-                marginRight: Sizes.fixPadding - 5.0,
-              }}
-            >
-              Services:
-            </Text>
-            <Text style={{ width: width / 1.7, ...Fonts.blackColor14Regular }}>
-              {item.services}
-            </Text>
-          </View>
         </View>
         <TouchableOpacity
           activeOpacity={0.9}
@@ -146,7 +130,7 @@ const MyBookingScreen = ({ navigation }) => {
             marginLeft: Sizes.fixPadding + 5.0,
           }}
         >
-          My Booking
+          My Bookings
         </Text>
       </View>
     );
