@@ -59,11 +59,7 @@ const CustomDrawer = (props) => {
           option: 'Favorites',
           navigateTo: 'Favorites',
         })}
-        {drawerOptionSort({
-          iconName: 'location-on',
-          option: 'My Address',
-          navigateTo: 'MyAddresses',
-        })}
+
         {drawerOptionSort({
           iconName: 'email',
           option: 'Contact us',
