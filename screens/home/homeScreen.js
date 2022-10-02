@@ -27,8 +27,29 @@ const markers = [
     place: 'Trainer 1',
     address: '1150 18th St NW Washington, DC 20036',
     rating: '4.5',
-    distance: '3.5',
-    cost: 50,
+    cost: 75,
+  },
+  {
+    coordinate: {
+      latitude: 38.91487,
+      longitude: -76.98407,
+    },
+    image: require('../../assets/images/service_provider/provider_2.jpg'),
+    place: 'Trainer 2',
+    address: '1406 Okie St NE, Washington, DC 20002',
+    rating: '4.5',
+    cost: 75,
+  },
+  {
+    coordinate: {
+      latitude: 38.932388,
+      longitude: -76.979843,
+    },
+    image: require('../../assets/images/service_provider/provider_3.jpg'),
+    place: 'Trainer 3',
+    address: '3408 18th St NE, Washington, DC 20018',
+    rating: '4.5',
+    cost: 75,
   },
 ];
 
@@ -248,14 +269,6 @@ const HomeScreen = ({ navigation }) => {
                     justifyContent: 'space-between',
                   }}
                 >
-                  <View>
-                    <Text style={{ ...Fonts.grayColor12Regular }}>
-                      Distance
-                    </Text>
-                    <Text style={{ ...Fonts.blackColor14Bold }}>
-                      {marker.distance} mi
-                    </Text>
-                  </View>
                   <View>
                     <Text style={{ ...Fonts.grayColor12Regular }}>Cost</Text>
                     <Text style={{ ...Fonts.blackColor14Bold }}>

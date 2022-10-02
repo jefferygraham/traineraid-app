@@ -20,13 +20,13 @@ const favoritesList = [
     key: '1',
     image: require('../../assets/images/service_provider/provider_1.jpg'),
     name: 'Trainer 1',
-    address: '104, Apple Square, New york',
+    address: '1150 18th St NW Washington, DC 20036',
   },
   {
     key: '2',
     image: require('../../assets/images/service_provider/provider_3.jpg'),
     name: 'Trainer 3',
-    address: 'G-9, Opera Canter, New York.',
+    address: '3408 18th St NE, Washington, DC 20018',
   },
 ];
 

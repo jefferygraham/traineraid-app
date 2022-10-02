@@ -111,7 +111,7 @@ const SelectPaymentMethodScreen = ({ navigation }) => {
             marginLeft: Sizes.fixPadding - 5.0,
           }}
         >
-          $50
+          $75
         </Text>
       </TouchableOpacity>
     );
