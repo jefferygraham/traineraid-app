@@ -23,8 +23,6 @@ const BookingDetailScreen = ({ navigation }) => {
         >
           {serviceProviderDetail()}
           {divider()}
-          {carDetail()}
-          {divider()}
           {dateAndTimeDetail()}
           {divider()}
           {servicesDetail()}
@@ -120,45 +118,6 @@ const BookingDetailScreen = ({ navigation }) => {
         >
           10:00 AM
         </Text>
-      </View>
-    );
-  }
-
-  function carDetail() {
-    return (
-      <View style={{ marginHorizontal: Sizes.fixPadding * 2.0 }}>
-        <Text
-          style={{
-            ...Fonts.primaryColor18Bold,
-            marginBottom: Sizes.fixPadding,
-          }}
-        >
-          Car Detail
-        </Text>
-        <View style={{ flexDirection: 'row' }}>
-          <Text style={{ ...Fonts.blackColor14Bold }}>Car Model:</Text>
-          <Text
-            style={{
-              ...Fonts.blackColor14Regular,
-              marginLeft: Sizes.fixPadding - 5.0,
-            }}
-          >
-            BMW X7
-          </Text>
-        </View>
-        <View
-          style={{ flexDirection: 'row', marginTop: Sizes.fixPadding - 5.0 }}
-        >
-          <Text style={{ ...Fonts.blackColor14Bold }}>Car Number:</Text>
-          <Text
-            style={{
-              ...Fonts.blackColor14Regular,
-              marginLeft: Sizes.fixPadding - 5.0,
-            }}
-          >
-            XYZ 007
-          </Text>
-        </View>
       </View>
     );
   }
