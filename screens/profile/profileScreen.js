@@ -26,7 +26,7 @@ const ProfileScreen = ({ navigation }) => {
       <>
         <View style={{ marginVertical: Sizes.fixPadding * 3.0 }}>
           <Image
-            source={require('../../assets/images/user/user_5.jpg')}
+            source={require('../../assets/images/user.jpg')}
             style={styles.userImageStyle}
           />
           <Text

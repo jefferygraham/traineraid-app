@@ -253,13 +253,13 @@ const HomeScreen = ({ navigation }) => {
                       Distance
                     </Text>
                     <Text style={{ ...Fonts.blackColor14Bold }}>
-                      {marker.distance} km
+                      {marker.distance} mi
                     </Text>
                   </View>
                   <View>
                     <Text style={{ ...Fonts.grayColor12Regular }}>Cost</Text>
                     <Text style={{ ...Fonts.blackColor14Bold }}>
-                      ${marker.cost}
+                      ${marker.cost}+
                     </Text>
                   </View>
                   <View style={styles.bookNowButtonStyle}>
