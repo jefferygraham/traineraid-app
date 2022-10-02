@@ -57,7 +57,7 @@ const BookingDetailScreen = ({ navigation }) => {
         }}
       >
         <Text style={{ ...Fonts.blackColor18Bold }}>Total Amount</Text>
-        <Text style={{ ...Fonts.primaryColor22Bold }}>$135</Text>
+        <Text style={{ ...Fonts.primaryColor22Bold }}>$75</Text>
       </View>
     );
   }
@@ -76,23 +76,13 @@ const BookingDetailScreen = ({ navigation }) => {
         <View
           style={{
             flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-          }}
-        >
-          <Text style={{ ...Fonts.blackColor14Medium }}>Engine Detailing</Text>
-          <Text style={{ ...Fonts.blackColor14Medium }}>$85</Text>
-        </View>
-        <View
-          style={{
-            flexDirection: 'row',
             marginTop: Sizes.fixPadding - 5.0,
             alignItems: 'center',
             justifyContent: 'space-between',
           }}
         >
-          <Text style={{ ...Fonts.blackColor14Medium }}>Body Wash</Text>
-          <Text style={{ ...Fonts.blackColor14Medium }}>$50</Text>
+          <Text style={{ ...Fonts.blackColor14Medium }}>1 session</Text>
+          <Text style={{ ...Fonts.blackColor14Medium }}>$75</Text>
         </View>
       </View>
     );
@@ -109,7 +99,7 @@ const BookingDetailScreen = ({ navigation }) => {
         >
           Date & Time Detail
         </Text>
-        <Text style={{ ...Fonts.blackColor14Medium }}>22 Feb, 2021</Text>
+        <Text style={{ ...Fonts.blackColor14Medium }}>22 Oct, 2022</Text>
         <Text
           style={{
             ...Fonts.blackColor14Regular,
@@ -157,7 +147,7 @@ const BookingDetailScreen = ({ navigation }) => {
             marginTop: Sizes.fixPadding - 8.0,
           }}
         >
-          104, Apple Square, New York.
+          1150 18th St NW Washington, DC 20036
         </Text>
       </View>
     );
