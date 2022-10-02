@@ -23,8 +23,6 @@ import settingsScreen from './screens/settings/settingsScreen';
 import privacyPolicyScreen from './screens/privacyPolicy/privacyPolicyScreen';
 import termsOfUseScreen from './screens/termsOfUse/termsOfUseScreen';
 import notificationsScreen from './screens/notifications/notificationsScreen';
-import myAddressesScreen from './screens/myAddresses/myAddressesScreen';
-import addNewAddressScreen from './screens/addNewAddress/addNewAddressScreen';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import CustomDrawer from './components/drawerContent';
 import { Amplify } from 'aws-amplify';
@@ -77,7 +75,6 @@ const App = () => {
         <Stack.Screen name='Favorites' component={favoritesScreen} />
         <Stack.Screen name='ContactUs' component={contactUsScreen} />
         <Stack.Screen name='Settings' component={settingsScreen} />
-        <Stack.Screen name='MyAddresses' component={myAddressesScreen} />
         <Stack.Screen
           name='ServiceProvider'
           component={serviceProviderScreen}
@@ -97,7 +94,6 @@ const App = () => {
         <Stack.Screen name='PrivacyPolicy' component={privacyPolicyScreen} />
         <Stack.Screen name='TermsOfUse' component={termsOfUseScreen} />
         <Stack.Screen name='Notifications' component={notificationsScreen} />
-        <Stack.Screen name='AddNewAddress' component={addNewAddressScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
