@@ -24,13 +24,13 @@ const notificationList = [
   {
     key: '2',
     title: 'Congratulations..',
-    description: 'Congratulations.. Your session has been completed.',
+    description: 'Congratulations. Your session has been booked.',
   },
   {
     key: '3',
     title: 'Rate us now',
     description:
-      'Your feedback are very important for us.Tap here to rate us now.',
+      'Your feedback is very important for us.Tap here to rate us now.',
   },
 ];
 
