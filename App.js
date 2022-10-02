@@ -13,8 +13,6 @@ import verificationScreen from './screens/auth/verificationScreen';
 import registerScreen from './screens/auth/registerScreen';
 import homeScreen from './screens/home/homeScreen';
 import serviceProviderScreen from './screens/serviceProvider/serviceProviderScreen';
-import selectCarScreen from './screens/selectCar/selectCarScreen';
-import addNewCarScreen from './screens/addNewCar/addNewCarScreen';
 import selectDateAndTimeScreen from './screens/selectDatAndTime/selectDateAndTimeScreen';
 import selectPaymentMethodScreen from './screens/selectPaymentMethod/selectPaymentMethodScreen';
 import profileScreen from './screens/profile/profileScreen';
@@ -89,8 +87,6 @@ const App = () => {
           name='ServiceProvider'
           component={serviceProviderScreen}
         />
-        <Stack.Screen name='SelectCar' component={selectCarScreen} />
-        <Stack.Screen name='AddNewCar' component={addNewCarScreen} />
         <Stack.Screen
           name='SelectDateAndTime'
           component={selectDateAndTimeScreen}

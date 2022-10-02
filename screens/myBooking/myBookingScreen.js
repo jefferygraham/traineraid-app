@@ -17,7 +17,7 @@ const bookingList = [
   {
     id: '1',
     image: require('../../assets/images/service_provider/provider_1.jpg'),
-    name: 'Perfect Car Wash Services',
+    name: 'Trainer 1',
     address: '105, Apple Square, New york',
     dateAndTime: '10:00 AM, 20 Feb 2021',
     services: 'Interier Cleaning, Engine Detailing',
@@ -26,7 +26,7 @@ const bookingList = [
   {
     id: '2',
     image: require('../../assets/images/service_provider/provider_2.jpg'),
-    name: 'Quicky Car Wash Services',
+    name: 'Trainer 2',
     address: '115, Opera Hub, New york',
     dateAndTime: '04:00 PM, 30 March 2021',
     services: 'Body Wash',
@@ -35,7 +35,7 @@ const bookingList = [
   {
     id: '3',
     image: require('../../assets/images/service_provider/provider_3.jpg'),
-    name: 'Speedy Car Services',
+    name: 'Trainer 3',
     address: 'G-8, My Honest Hub, New york',
     dateAndTime: '02:00 PM,  02 April 2021',
     services: 'Body Wash, Interier Cleaning',

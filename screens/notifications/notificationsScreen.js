@@ -19,12 +19,12 @@ const notificationList = [
   {
     key: '1',
     title: 'Get 30% Off',
-    description: 'Use code TrainerAid30 & get 30% off on your car service.',
+    description: 'Use code TrainerAid30 & get 30% off on your session.',
   },
   {
     key: '2',
     title: 'Congratulations..',
-    description: 'Congratulations.. Your car has been successfully serviced.',
+    description: 'Congratulations.. Your session has been completed.',
   },
   {
     key: '3',
