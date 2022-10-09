@@ -82,11 +82,7 @@ const SelectDateAndTimeScreen = ({ navigation }) => {
       <TouchableOpacity
         activeOpacity={0.9}
         onPress={() => {
-          updateState({ showSuccessDialog: true });
-          setTimeout(() => {
-            updateState({ showSuccessDialog: false });
-            navigation.push('MainDrawer');
-          }, 2000);
+          navigation.push('SelectPaymentMethod');
         }}
         style={styles.continueButtonStyle}
       >
