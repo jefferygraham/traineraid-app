@@ -19,8 +19,8 @@ const favoritesList = [
   {
     key: '1',
     image: require('../../assets/images/service_provider/provider_1.jpg'),
-    name: 'Trainer 1',
-    address: '1150 18th St NW Washington, DC 20036',
+    name: 'John Lakshmanan',
+    address: 'Hyattsville, MD',
   },
   {
     key: '2',

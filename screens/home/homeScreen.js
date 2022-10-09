@@ -20,34 +20,12 @@ import { getDrawerStatusFromState } from '@react-navigation/drawer';
 const markers = [
   {
     coordinate: {
-      latitude: 38.9045,
-      longitude: -77.0422,
+      latitude: 38.956341,
+      longitude: -76.941719,
     },
     image: require('../../assets/images/service_provider/provider_1.jpg'),
-    place: 'Trainer 1',
-    address: '1150 18th St NW Washington, DC 20036',
-    rating: '4.5',
-    cost: 75,
-  },
-  {
-    coordinate: {
-      latitude: 38.91487,
-      longitude: -76.98407,
-    },
-    image: require('../../assets/images/service_provider/provider_2.jpg'),
-    place: 'Trainer 2',
-    address: '1406 Okie St NE, Washington, DC 20002',
-    rating: '4.5',
-    cost: 75,
-  },
-  {
-    coordinate: {
-      latitude: 38.932388,
-      longitude: -76.979843,
-    },
-    image: require('../../assets/images/service_provider/provider_3.jpg'),
-    place: 'Trainer 3',
-    address: '3408 18th St NE, Washington, DC 20018',
+    place: 'John Lakshmanan',
+    address: 'Hyattsville, MD',
     rating: '4.5',
     cost: 75,
   },

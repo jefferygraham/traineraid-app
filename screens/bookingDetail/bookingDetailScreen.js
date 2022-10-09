@@ -140,14 +140,14 @@ const BookingDetailScreen = ({ navigation }) => {
         >
           Service Provider Detail
         </Text>
-        <Text style={{ ...Fonts.blackColor16Medium }}>Trainer 1</Text>
+        <Text style={{ ...Fonts.blackColor16Medium }}>John Lakshmanan</Text>
         <Text
           style={{
             ...Fonts.blackColor14Regular,
             marginTop: Sizes.fixPadding - 8.0,
           }}
         >
-          1150 18th St NW Washington, DC 20036
+          Hyattsville, MD
         </Text>
       </View>
     );

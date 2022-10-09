@@ -17,8 +17,8 @@ const bookingList = [
   {
     id: '1',
     image: require('../../assets/images/service_provider/provider_1.jpg'),
-    name: 'Trainer 1',
-    address: '1150 18th St NW Washington, DC 20036',
+    name: 'John Lakshmanan',
+    address: 'Hyattsville, MD',
     dateAndTime: '10:00 AM, 22 Oct 2022',
     isDone: false,
   },

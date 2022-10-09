@@ -19,35 +19,11 @@ import { Snackbar } from 'react-native-paper';
 const reviewsList = [
   {
     id: '1',
-    image: require('../../assets/images/user/user_3.jpg'),
-    name: 'Emilli Williamson',
-    date: '20 Feb, 2021',
-    review: 'Best Services.',
-    rating: 5,
-  },
-  {
-    id: '2',
-    image: require('../../assets/images/user/user_3.jpg'),
-    name: 'Emilli Williamson',
-    date: '20 Feb, 2021',
-    review: 'Best Services.',
-    rating: 5,
-  },
-  {
-    id: '3',
     image: require('../../assets/images/user/user_1.jpg'),
-    name: 'John Smith',
-    date: '19 Feb, 2021',
-    review: 'Its really good car service center.',
-    rating: 4,
-  },
-  {
-    id: '4',
-    image: require('../../assets/images/user/user_8.jpg'),
-    name: 'David Johnson',
-    date: '15 Feb, 2021',
-    review: 'Decent service.',
-    rating: 3,
+    name: 'Jeff Graham',
+    date: '20 Feb, 2021',
+    review: 'Best Services.',
+    rating: 5,
   },
 ];
 
@@ -260,15 +236,13 @@ const ServiceProviderScreen = ({ navigation, route }) => {
           <MapView
             style={{ height: 191 }}
             initialRegion={{
-              latitude: 37.33233141,
-              longitude: -122.0312186,
+              latitude: 38.956341,
+              longitude: -76.941719,
               latitudeDelta: 0.1,
               longitudeDelta: 0.1,
             }}
           >
-            <Marker
-              coordinate={{ latitude: 37.33233141, longitude: -122.0312186 }}
-            >
+            <Marker coordinate={{ latitude: 38.956341, longitude: -76.941719 }}>
               <Image
                 source={require('../../assets/images/custom_marker.png')}
                 style={{ width: 30.0, height: 30.0 }}
@@ -294,10 +268,16 @@ const ServiceProviderScreen = ({ navigation, route }) => {
           About
         </Text>
         <Text style={{ ...Fonts.blackColor12Regular }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit pharetra
-          luctus turpis quis senectus vitae dis nisl porttitor. Et id venenatis,
-          potenti sapien purus aliquam est. Tellus ut tincidunt id mi cum.
-          Bibendum vestibulum blandit semper aenean egestas nunc dignissim id.
+          Brief Bio: Originally from PGH. Have lived in the DMV for 11 years
+          now. Over 15 years of PT training experience that includes various
+          forms of fitness classes and training sessions. A true fitness and
+          wellness need that enjoys the science behind the madness, but also
+          understanding of the human aspect of training individuals.{'\n\n'}
+          Area and services: DMV - in/at-home personal training, Sports
+          conditioning, Rehabilitation, weight loss, muscle gain, accountability
+          messages, nutritional guidance and plans, wholistic approach to
+          overall wellness, one on one and group sessions, all sessions
+          individually designed for clients unique needs.
         </Text>
       </View>
     );
@@ -313,7 +293,7 @@ const ServiceProviderScreen = ({ navigation, route }) => {
             marginTop: Sizes.fixPadding - 5.0,
           }}
         >
-          Open now (09:00 AM - 22:00 PM)
+          Contact to schedule session
         </Text>
       </View>
     );
