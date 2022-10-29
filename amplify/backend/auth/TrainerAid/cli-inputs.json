@@ -4,14 +4,10 @@
     "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
     "resourceNameTruncated": "traine751d1c34",
-    "userPoolName": "TrainerAid",
-    "autoVerifiedAttributes": [
-      "email"
-    ],
+    "userPoolName": "MyTrainerAid",
+    "autoVerifiedAttributes": ["email"],
     "mfaConfiguration": "OFF",
-    "mfaTypes": [
-      "SMS Text Message"
-    ],
+    "mfaTypes": ["SMS Text Message"],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
     "emailVerificationSubject": "Verification code: {####}",
@@ -33,12 +29,10 @@
     "userpoolClientLambdaRole": "Traine751d1c34_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
     "sharedId": "751d1c34",
-    "resourceName": "TrainerAid",
+    "resourceName": "MyTrainerAid",
     "authSelections": "identityPoolAndUserPool",
     "serviceName": "Cognito",
-    "usernameAttributes": [
-      "email"
-    ],
+    "usernameAttributes": ["email"],
     "useDefault": "manual",
     "userPoolGroups": false,
     "userPoolGroupList": [],

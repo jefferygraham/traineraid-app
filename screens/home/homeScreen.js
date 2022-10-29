@@ -286,7 +286,7 @@ const HomeScreen = ({ navigation }) => {
           }}
           style={{ marginLeft: Sizes.fixPadding * 2.0 }}
         />
-        <Text style={{ ...Fonts.blackColor18Bold }}>TrainerAid</Text>
+        <Text style={{ ...Fonts.blackColor18Bold }}>MyTrainerAid</Text>
         <MaterialIcons
           name='notifications'
           size={24}

@@ -1,8 +1,6 @@
 {
-  "providers": [
-    "awscloudformation"
-  ],
-  "projectName": "TrainerAid",
+  "providers": ["awscloudformation"],
+  "projectName": "MyTrainerAid",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {

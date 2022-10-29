@@ -1,13 +1,13 @@
 export type AmplifyDependentResourcesAttributes = {
-    "auth": {
-        "TrainerAid": {
-            "IdentityPoolId": "string",
-            "IdentityPoolName": "string",
-            "UserPoolId": "string",
-            "UserPoolArn": "string",
-            "UserPoolName": "string",
-            "AppClientIDWeb": "string",
-            "AppClientID": "string"
-        }
-    }
-}
+  auth: {
+    MyTrainerAid: {
+      IdentityPoolId: 'string';
+      IdentityPoolName: 'string';
+      UserPoolId: 'string';
+      UserPoolArn: 'string';
+      UserPoolName: 'string';
+      AppClientIDWeb: 'string';
+      AppClientID: 'string';
+    };
+  };
+};

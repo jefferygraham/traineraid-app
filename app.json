@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RN TrainerAid",
-    "slug": "rn-traineraid",
+    "name": "RN MyTrainerAid",
+    "slug": "rn-MyTrainerAid",
     "version": "1.1.0",
     "orientation": "portrait",
     "owner": "grahamj78",
@@ -16,12 +16,12 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "bundleIdentifier": "com.render.rnTrainerAid",
+      "bundleIdentifier": "com.render.rnMyTrainerAid",
       "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.render.rnTrainerAid",
+      "package": "com.render.rnMyTrainerAid",
       "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
